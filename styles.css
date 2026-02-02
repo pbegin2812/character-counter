@@ -46,8 +46,11 @@ h1 {
     height: 200px;
     border-radius: 10px;
     font-size: x-large;
-    outline-color: #8A00C4;
-    outline-style: solid;
+    transition: outline 0.2s ease;
+}
+#textarea1:focus {
+    outline: 5px solid #8A00C4;
+    box-shadow: 0 0 10px #8A00C4, 0 0 20px #8A00C4, 0 0 40px #8A00C4;
 }
 #textarea1::placeholder {
     color: white;
